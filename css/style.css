@@ -1,0 +1,164 @@
+html, body, #map {
+  height: 800px;
+}
+
+.navbar-default {
+  background-color: #7bb7d1;
+  border-radius: 0;
+  background-image: none;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ea998f;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-header .navbar-toggle {
+  color: black;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #ea998f;
+  color: #242424;
+}
+
+body {
+    /* background: linear-gradient(to right, #ffff66, #ffffcc); */
+    background-color: #e6f2ff;
+    border-radius: 6px;
+    height: 120px;
+  font-family: Tahoma;
+}
+
+#header {
+  color:#0080ff;
+  text-align: center;
+  font-size: 2em;
+  font-family: Tahoma, Roman, Verdana;
+  margin-top: 70px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.counties {
+    stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+.map {
+    border: medium solid #000;
+    margin: 10px 0 0 35px;
+    background-color: #FFF;
+}
+
+.chart {
+    float: right;
+    margin: 11px 35px 0 0;
+}
+.chartTitle {
+  font-family: Tahoma, Roman, Verdana;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.chartBackground {
+    border: medium solid #999;
+    fill: #FFF;
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #000;
+    stroke-width: 5px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 4px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: Tahoma, Roman, Verdana;
+    font-size: 1.6em;
+    fill: black;
+}
+
+.numbers {
+    fill: white;
+    font-family: Tahoma, Roman, Verdana;
+}
+
+.dropdown {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    z-index: 10;
+    font-family: Tahoma, Roman, Verdana;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
+
+.infolabel {
+    position: absolute;
+    height: 100px;
+    min-width: 50px;
+    color: #fff;
+    background-color: #999;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    top: -75px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.metadata {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+    
+.legend {
+    font-family: Tahoma, Roman, Verdana;
+    font-size: 1.45em;
+    color: #000;
+    font-weight: bold;
+}
+
+#header6 {
+    font-size: .9em;
+    font-family: Tahoma, Roman, Verdana;
+    line-height: 10px;
+    opacity: .8;
+    text-align: center;
+}
